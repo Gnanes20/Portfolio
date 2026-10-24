@@ -1192,3 +1192,22 @@ body.modal-open {
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   }
 }
+
+/* Video Card Direct Google Drive Link */
+.card-external-link {
+  text-decoration: none;
+  border-color: rgba(56, 189, 248, 0.35);
+  background: linear-gradient(145deg, rgba(14, 25, 52, 0.75), rgba(8, 14, 30, 0.85));
+}
+
+.card-external-link:hover {
+  background: linear-gradient(145deg, rgba(29, 78, 216, 0.4), rgba(14, 25, 52, 0.9));
+  border-color: #38bdf8;
+  box-shadow: 0 16px 40px rgba(37, 99, 235, 0.35);
+}
+
+.external-mini-icon {
+  font-size: 0.72rem;
+  color: var(--liquid-sky-cyan);
+  margin-left: 4px;
+}
